@@ -12,16 +12,18 @@
       }
       #app-root {
         background: transparent;
-        min-height: 100vh;
+        min-height: 100dvh;
         overflow: auto;
         display: flex;
+        max-width: 100%;
+        overflow: hidden;
       }
       @media (min-width: 768px) {
         body {
           display: flex;
           justify-content: center;
           align-items: center;
-          height: 100vh;
+          height: 100dvh;
         }
         #app-root {
           width: 400px;
